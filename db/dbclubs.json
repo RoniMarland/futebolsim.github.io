@@ -1,7 +1,7 @@
 {
-    "clubes": [
+    "clubs": [
         {
-            "colors": "#000000",
+            "colors": [{"primary": "#000000","secondary": "#ffffff"}],
             "name": "Corinthians",
             "state": "São Paulo",
             "players": [
@@ -75,17 +75,19 @@
             "image": "img/escudos/cor.png"
         },
         {
-            "colors": "#fc1303",
+            "colors": [{"primary": "#C3281E","secondary": "#000000", "third": "#ffffff"}],
             "name": "Flamengo",
             "state": "Rio de Janeiro",
             "players": [
                 {
                     "name": "Rossi",
                     "positions": {
-                        "first": [2],
+                        "first": [
+                            2
+                        ],
                         "second": [],
                         "third": [],
-                        "positionName": "Goleiro" 
+                        "positionName": "Goleiro"
                     },
                     "age": 28,
                     "overall": 78
@@ -93,8 +95,13 @@
                 {
                     "name": "Fabricio Bruno",
                     "positions": {
-                        "first": [8,7],
-                        "second": [6],
+                        "first": [
+                            8,
+                            7
+                        ],
+                        "second": [
+                            6
+                        ],
                         "third": []
                     },
                     "age": 28,
@@ -103,9 +110,17 @@
                 {
                     "name": "Léo Pereira",
                     "positions": {
-                        "first": [8],
-                        "second": [6,7],
-                        "third": [9,12]
+                        "first": [
+                            8
+                        ],
+                        "second": [
+                            6,
+                            7
+                        ],
+                        "third": [
+                            9,
+                            12
+                        ]
                     },
                     "age": 28,
                     "overall": 78
@@ -113,9 +128,15 @@
                 {
                     "name": "David Luiz",
                     "positions": {
-                        "first": [8,6,7],
+                        "first": [
+                            8,
+                            6,
+                            7
+                        ],
                         "second": [],
-                        "third": [12]
+                        "third": [
+                            12
+                        ]
                     },
                     "age": 38,
                     "overall": 80
@@ -123,7 +144,10 @@
                 {
                     "name": "Wesley",
                     "positions": {
-                        "first": [5,10],
+                        "first": [
+                            5,
+                            10
+                        ],
                         "second": [],
                         "third": []
                     },
@@ -133,7 +157,10 @@
                 {
                     "name": "Ayrton Lucas",
                     "positions": {
-                        "first": [9,14],
+                        "first": [
+                            9,
+                            14
+                        ],
                         "second": [],
                         "third": []
                     },
@@ -143,9 +170,18 @@
                 {
                     "name": "Erick Pulgar",
                     "positions": {
-                        "first": [12,13,11,16],
+                        "first": [
+                            12,
+                            13,
+                            11,
+                            16
+                        ],
                         "second": [],
-                        "third": [16,17,18]
+                        "third": [
+                            16,
+                            17,
+                            18
+                        ]
                     },
                     "age": 30,
                     "overall": 79
@@ -153,7 +189,11 @@
                 {
                     "name": "Thiago Maia",
                     "positions": {
-                        "first": [12,13,11],
+                        "first": [
+                            12,
+                            13,
+                            11
+                        ],
                         "second": [],
                         "third": []
                     },
@@ -163,9 +203,21 @@
                 {
                     "name": "Gerson",
                     "positions": {
-                        "first": [18,17,16],
-                        "second": [22,21,23],
-                        "third": [13,12,11]
+                        "first": [
+                            18,
+                            17,
+                            16
+                        ],
+                        "second": [
+                            22,
+                            21,
+                            23
+                        ],
+                        "third": [
+                            13,
+                            12,
+                            11
+                        ]
                     },
                     "age": 26,
                     "overall": 82
@@ -173,9 +225,21 @@
                 {
                     "name": "Nico De La Cruz",
                     "positions": {
-                        "first": [22,23,21],
-                        "second": [17,18,16],
-                        "third": [15,19,20]
+                        "first": [
+                            22,
+                            23,
+                            21
+                        ],
+                        "second": [
+                            17,
+                            18,
+                            16
+                        ],
+                        "third": [
+                            15,
+                            19,
+                            20
+                        ]
                     },
                     "age": 26,
                     "overall": 80
@@ -183,9 +247,18 @@
                 {
                     "name": "Arrascaeta",
                     "positions": {
-                        "first": [22,23,21,17,18],
+                        "first": [
+                            22,
+                            23,
+                            21,
+                            17,
+                            18
+                        ],
                         "second": [],
-                        "third": [19,15]
+                        "third": [
+                            19,
+                            15
+                        ]
                     },
                     "age": 29,
                     "overall": 81
@@ -193,9 +266,17 @@
                 {
                     "name": "Bruno Henrique",
                     "positions": {
-                        "first": [24],
-                        "second": [19],
-                        "third": [28,27,26]
+                        "first": [
+                            24
+                        ],
+                        "second": [
+                            19
+                        ],
+                        "third": [
+                            28,
+                            27,
+                            26
+                        ]
                     },
                     "age": 33,
                     "overall": 85
@@ -203,9 +284,17 @@
                 {
                     "name": "Gabigol",
                     "positions": {
-                        "first": [26,27,28],
-                        "second": [20],
-                        "third": [24]
+                        "first": [
+                            26,
+                            27,
+                            28
+                        ],
+                        "second": [
+                            20
+                        ],
+                        "third": [
+                            24
+                        ]
                     },
                     "age": 35,
                     "overall": 80
@@ -213,18 +302,22 @@
                 {
                     "name": "Pedro",
                     "positions": {
-                        "first": [27,28,26],
+                        "first": [
+                            27,
+                            28,
+                            26
+                        ],
                         "second": [],
                         "third": []
                     },
                     "age": 26,
                     "overall": 80
-                }                
+                }
             ],
             "image": "img/escudos/fla.png"
         },
         {
-            "colors": "#1ead17",
+            "colors": [{"primary": "#035F36","secondary": "#ffffff"}],
             "name": "Palmeiras",
             "state": "Sao Paulo",
             "players": [
@@ -298,12 +391,86 @@
             "image": "img/escudos/pal.png"
         },
         {
-            "colors": "#000000",
+            "colors": [{"primary": "#000000","secondary": "#ffffff"}],
             "name": "Atletico Mineiro",
             "state": "Minas Gerais",
             "players": [
                 {
                     "name": "Everton",
+                    "position": 2,
+                    "age": 36,
+                    "overall": 78
+                },
+                {
+                    "name": "Fabricio Bruno",
+                    "position": "ZAD",
+                    "age": 35,
+                    "overall": 76
+                },
+                {
+                    "name": "Lucas Verissimo",
+                    "position": "ZAE",
+                    "age": 35,
+                    "overall": 78
+                },
+                {
+                    "name": "Wesley",
+                    "position": "LAD",
+                    "age": 35,
+                    "overall": 74
+                },
+                {
+                    "name": "Beijinho",
+                    "position": "LAE",
+                    "age": 35,
+                    "overall": 73
+                },
+                {
+                    "name": "Pulgar",
+                    "position": "MCV",
+                    "age": 35,
+                    "overall": 79
+                },
+                {
+                    "name": "Gerson",
+                    "position": "MCV",
+                    "age": 35,
+                    "overall": 82
+                },
+                {
+                    "name": "Arrascaeta",
+                    "position": "MCO",
+                    "age": 35,
+                    "overall": 81
+                },
+                {
+                    "name": "Bruno Henrique",
+                    "position": "EXT",
+                    "age": 35,
+                    "overall": 85
+                },
+                {
+                    "name": "Gabigol",
+                    "position": "EXT",
+                    "age": 35,
+                    "overall": 80
+                },
+                {
+                    "name": "Pedro",
+                    "position": "ATA",
+                    "age": 35,
+                    "overall": 80
+                }
+            ],
+            "image": "img/escudos/cam.png"
+        },
+        {
+            "colors": [{"primary": "#000000","secondary": "#ffffff"}],
+            "name": "Vasco",
+            "state": "Rio de Janeiro",
+            "players": [
+                {
+                    "name": "Nao sei o nome do goleiro do Vasco",
                     "position": 2,
                     "age": 36,
                     "overall": 78

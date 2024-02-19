@@ -48,12 +48,25 @@ function generateRandomClub() {
 // Função para gerar uma cor aleatória em formato hexadecimal
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
-    let color = '#';
+    let primaryColor = '#';
+    let secondaryColor = '#';
+
     for (let i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 16)];
+        primaryColor += letters[Math.floor(Math.random() * 16)];
     }
-    return color;
+
+    for (let i = 0; i < 6; i++) {
+        secondaryColor += letters[Math.floor(Math.random() * 16)];
+    }
+
+    const colorsArray = [{
+        primary: primaryColor,
+        secondary: secondaryColor,
+    }];
+
+    return colorsArray;
 }
+
 
 // Função para gerar um nome de clube aleatório
 function getRandomClubName() {
@@ -69,7 +82,7 @@ function getRandomState() {
 
 // Função para gerar uma imagem aleatória
 function getRandomImage() {
-    const images = ['img/escudos/fla.png', 'img/escudos/pal.png', 'img/escudos/san.png', 'img/escudos/cor.png', 'img/escudos/sao.png'];
+    const images = ['img/escudos/fla.png', 'img/escudos/pal.png', 'img/escudos/cor.png', 'img/escudos/cam.png'];
     return images[getRandomNumber(0, images.length - 1)];
 }
 
@@ -84,7 +97,7 @@ export function generateRandomData() {
         clubs: [],
     };
 
-    for (let i = 0; i < 120; i++) {
+    for (let i = 0; i < 20; i++) {
         data.clubs.push(generateRandomClub());
     }
 

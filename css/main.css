@@ -33,14 +33,16 @@ body {
 }
 
 .homeContainer {
+  padding: 0px;
   display: flex;
   justify-content: center;
-  align-items: center; /* Alinha verticalmente os botões */
+  align-items: flex-start; /* Alterado para alinhar no topo */
   width: 50%;
   height: 100%;
   background-color: #31AD6B;
   flex-direction: row;
 }
+
 
 .newGameBtn,
 .loadGameBtn {
@@ -62,7 +64,33 @@ body {
 
 .newGameBtn:active,
 .loadGameBtn:active {
-  background-color: greenyellow;
+  transition: background-color 0.1s;
+  background-color: rgb(0, 24, 245);
+}
+
+.selectClubBox {
+  display: none;
+  flex-wrap: wrap; /* Adicionado para que os botões vão para a próxima linha quando não houver espaço suficiente */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.selectClubBox button {
+  cursor: pointer;
+  width: 4.5rem;
+  margin: 5px; /* Adicionado espaçamento para separar os botões */
+}
+
+
+.emblemBtn {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 
