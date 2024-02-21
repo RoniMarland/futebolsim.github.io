@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.clubDiv {
+    width: 80vw;
+    padding: 5px;
+    height: 100vw;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Para alinhar as divs .cd verticalmente */
+}
+
+.cd {
+    font-size: 1.6rem;
+    padding-left: 15px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2px;
+    background-color: rgb(255, 0, 149);
+    align-items: center;
+    justify-content: space-between;
+}
